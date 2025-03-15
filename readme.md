@@ -1,4 +1,7 @@
-# Jetson with 0.96 OLED Display (SSD1306) 
+# Jetson with 0.96 OLED Display (SSD1306)
+This time not a Python file, but a cpp program.
+But the problem remains, SMBUS calls don't work.
+Writing data is just successful byte wise, no big data chunks possible.
 
 ## Compile file:
 <pre>
