@@ -3,6 +3,11 @@ This time not a Python file, but a cpp program.
 But the problem remains, SMBUS calls don't work.
 Writing data is just successful byte wise, no big data chunks possible.
 
+Tegrastat can't run in parallel.
+
+CPU and GPU Performance gets displayed with 9 bar graphs.
+1 GPU, 8 x CPU.
+
 ## Compile file:
 <pre>
 $ g++ ssd1306_jetson.cpp -o oled_display
